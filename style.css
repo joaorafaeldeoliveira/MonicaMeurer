@@ -1415,7 +1415,7 @@ footer {
 }
 
 .depoimentos h2 {
-  font-size: 28px; /* Evita que o título quebre em muitas linhas */
+  font-size: 28px; 
   margin-bottom: 30px;
   line-height: 1.2;
 }
@@ -1425,33 +1425,31 @@ footer {
   letter-spacing: 1px;
 }
 
-/* 3. Cards de Depoimento */
 .depoimento-card {
-  padding: 30px 20px 25px; /* Padding interno mais compacto */
+  padding: 30px 20px 25px; 
   border-radius: 20px;
 }
 
 .depoimento-card p {
-  font-size: 15px; /* Texto levemente menor para caber melhor */
+  font-size: 15px;
   line-height: 1.6;
   margin-bottom: 20px;
-  min-height: auto; /* Remove a altura mínima em telas pequenas */
+  min-height: auto; 
 }
 
 .quote-icon {
-  font-size: 60px; /* Aspas menores para não poluir */
+  font-size: 60px;
   top: -10px;
   left: 15px;
 }
 
-/* 4. Autor e Avatar */
 .autor {
   gap: 12px;
   padding-top: 15px;
 }
 
 .avatar {
-  width: 40px; /* Avatar menor */
+  width: 40px;
   height: 40px;
 }
 
@@ -1463,20 +1461,19 @@ footer {
   font-size: 12px;
 }
 
-/* 5. Ajuste nos Botões (Essencial para não cortar) */
 .btn-agendar, 
 .btn-agendar-footer, 
 .btn-agendar-map {
-  width: 100%;       /* Ocupa a largura total disponível */
-  max-width: 100%;   /* Remove restrição de largura */
-  height: 48px;      /* Altura ligeiramente menor */
-  padding: 0 4px 0 15px; /* Padding esquerdo reduzido */
+  width: 100%;       
+  max-width: 100%;  
+  height: 48px;     
+  padding: 0 4px 0 15px; 
 }
 
 .btn-agendar .agendar,
 .btn-agendar-footer .agendar,
 .btn-agendar-map .agendar {
-  font-size: 14px;   /* Fonte menor para o texto não bater no ícone */
+  font-size: 14px;  
   margin-right: -5px; 
 }
 
